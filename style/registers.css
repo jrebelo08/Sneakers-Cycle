@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+   
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003580;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+.login-register-alert{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+
+
+.height-270 {
+    background-color: white;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    margin: auto; 
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.height-230 {
+    background-color: white;
+    width: 300px;
+    
+    border-radius: 10px;
+    margin: auto; 
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 230px;
+}
+
+/* .change-container {
+    height: 230px;
+}
+
+
+
+.change-pass-container {
+    height: 300px;
+} */
+
+.user-container {
+    background-color: white;
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    margin: auto; 
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.user-info {
+    margin-bottom: 30px;
+    margin-top: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.margin-pass {
+    margin-bottom: 10px;
+}
+
+.type-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.type-container select {
+    margin-left: 130px;
+}
+
+.submit-button {
+    background-color: #0056B3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    
+}
+
+.change-submit-button {
+    background-color: #0056B3;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.change-pass-button {
+    margin-top: 0;
+}

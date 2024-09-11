@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.payment-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.shipping-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+   
+}
+h1 {
+    font-weight: bold;
+    font-size: 28px; 
+    margin-bottom: 20px; 
+}
+
+label {
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #666;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px; 
+}
+
+select option {
+    font-size: 16px; 
+    padding: 15px; 
+}
+
+input[type="submit"] {
+    background-color: #0056B3;
+    color: #fff;
+    padding: 15px 30px; 
+    margin-bottom: 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #355e8f;
+}
+
+textarea {
+    height: 150px; 
+    padding: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea::placeholder {
+    font-size: 16px; 
+    color: #666;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 10px;
+}

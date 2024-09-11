@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+    padding: 20px;
+
+}
+
+
+
+#profile-img {
+    width: 220px;
+    height: 250px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    align-self: flex-start;
+    padding-top: 40px;
+
+}
+
+#profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+#profile-info {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    padding-left: 20px;
+
+}
+
+.info-container * {
+    padding-bottom: 20px;
+
+}
+
+.info-container {
+    padding-left: 50px;
+}
+
+#profile-username {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+#profile-email {
+    display: flex;
+    justify-content: space-between;
+}
+#profile-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-password {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    padding-top: 50px;
+}
+
+#profile-payment {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+#profile-payment span {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+
+#profile-shipping {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-shipping span {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-info #a-username,
+#profile-info #a-email,
+#profile-info #a-pass,
+#profile-info #a-payment,
+#profile-info #a-shipping,
+#profile-info #a-items{
+    color: inherit;
+    text-decoration: none;
+    color: #0056B3;
+    font-weight: bold;
+
+}
+
+#profile-username #username {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 0;
+    background: #00A6CF;
+    background: linear-gradient(to right, #00A6CF 0%, #0056B3 39%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.a-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 50px;
+    padding-bottom: 0;
+    padding-left: 40px;
+}
+
+.a-div #a-username {
+    margin-left: 0;
+}
+
+.a-div svg {
+    padding-bottom: 0;
+    padding-top: 2px;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.delete-account {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+    align-self: flex-end;
+}
+
+.delete-account,
+.delete-account span {
+    transition: 200ms;
+}
+
+.delete-account .text {
+    transform: translateX(10px);
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.delete-account .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-account svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.delete-account:hover {
+    background: #ff3636;
+}
+
+.delete-account:hover .text {
+    color: transparent;
+}
+
+.delete-account:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.delete-account:focus {
+    outline: none;
+}
+
+.delete-account:active .icon svg {
+    transform: scale(0.8);
+}
+
+.admin-moderation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    
+    border-radius: 10px;
+    width: 100%;
+}
+
+.admin-moderation .bold {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.admin-moderation .admin-manage {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds space between the links */
+}
+
+.admin-moderation a {
+    text-decoration: none;
+    color:#0056B3
+
+    
+}
+
+.admin-moderation a:hover {
+    text-decoration: underline;
+}
+
+.first-a,
+.second-a {
+    display: flex;
+    align-items: center;
+}
+
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 0;
+    padding-top: 40px;
+}
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#user-input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #007bff;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+.success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#username{
+    padding: 0;
+    font-weight: bold;
+
+}
+#my-items{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.b-div{
+    justify-content: flex-end;
+}

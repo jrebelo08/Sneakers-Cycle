@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+html {
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+body {
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-link {
+    background-color: #0056B3;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.item-list {
+    padding-left: 0;
+}
+.item-list li {
+    font-size: 20px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 10px;
+    padding-bottom: 40px;
+    
+}
+
+.item-list li button:active {
+    transform: scale(0.95);
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#user-mng {
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+.user-list li {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list li a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.user-list li a:hover {
+    color: #23527c;
+}
+
+.user-list li a:active {
+    color: #1a1d23;
+}
+
+.user-list li:last-child {
+    border-bottom: none;
+}
+
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.delete-account {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+    align-self: flex-end;
+}
+
+.delete-account,
+.delete-account span {
+    transition: 200ms;
+}
+
+.delete-account .text {
+    transform: translateX(7px);
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.delete-account .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-account svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.delete-account:hover {
+    background: #ff3636;
+}
+
+.delete-account:hover .text {
+    color: transparent;
+}
+
+.delete-account:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(-5px);
+}
+
+.delete-account:focus {
+    outline: none;
+}
+
+.delete-account:active .icon svg {
+    transform: scale(0.8);
+}
+
+.a-usermng{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cee8ff;
+}
+.a-usermng:hover{
+    background-color: #b7ddff;
+}
